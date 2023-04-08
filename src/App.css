@@ -1,0 +1,192 @@
+
+.App-header {
+  background-color: #e8e1d7;
+  min-height: 100vh;
+
+}
+*{
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Home{
+  background-color: #e8e1d7;
+  min-height: 100vh;
+  display: flex;
+}
+
+.content{
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+  
+}
+.Connect{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.Claim{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 250px;
+  flex-direction: column;
+}
+.Claim-1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 250px;
+  flex-direction: column;
+  color:#512228;
+}
+h2{
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+}
+h1{
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 70px;
+
+}
+button{
+  height: 70px;
+  width:  370px;
+  background: #512228;
+  color: #e8e1d7;
+  border: none;
+  border-radius: 100px;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+
+a{
+  cursor: pointer;
+}
+p{
+  margin-top: 30%;
+  float: right;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Orbitron:wght@600&display=swap');
+
+
+.Twitter{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 200px;
+
+}
+
+input {
+  background: #512228;
+  border: none;
+  outline: none;
+  width: 450px;
+  height: 100px;
+  font-size: 20px;
+  border-radius: 9px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5); 
+  color: #e8e1d7 ;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Home{
+    background-color: #e8e1d7;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20%;
+    
+
+  }
+  
+img{
+  display: none;
+
+}
+.img{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+input {
+  background: #512228;
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 9px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5); 
+  color: #e8e1d7 ;
+}
+.img-1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80%;
+}
+h1{
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  height: 40px;
+  width:  240px;
+  color: #e8e1d7;
+  border: none;
+  border-radius: 100px;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+.Connect{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 230px;
+}
+.Claim-1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 250px;
+  flex-direction: column;
+  color:#512228;
+  text-align: center;
+}
+h2{
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+}
+}
